@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env*
+*.venv
+venv/
+ENV/
+.envrc
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yaml
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Migrations
+migrations/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Others
+*.sqlite3
+*.db
+
+# Ignore local files
+local_settings.py
+
+# Ignore notebooks
+*.ipynb
+
+# Ignore secrets
+secrets.json
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore cache
+.cache/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore node modules (if any)
+node_modules/
